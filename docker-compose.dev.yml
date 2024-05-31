@@ -1,0 +1,19 @@
+services:
+  dev.formula:
+    container_name: dev.formula
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+      target: dev
+    restart: unless-stopped
+    command: pnpm dev
+    env_file:
+      - ./env.dev
+    environment:
+      - NODE_ENV=development
+    volumes:
+      - ./:/app/
+      - /app/node_modules
+      - /app/.next
+    ports:
+      - 3000:3000
