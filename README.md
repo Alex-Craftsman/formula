@@ -2,7 +2,11 @@
 
 > https://docs.google.com/document/d/1L185S59L5MO6dS_Z4wAxysdIeMbu0vgtNo9_8fe2CI0/edit
 
-> https://www.upwork.com/jobs/~017b5d0f1f2ab0230e
+> https://www.upwork.com/freelancers/~01b68abaa01a1f110b
+
+## Deploy
+
+- [Vercel](https://formula-five.vercel.app/)
 
 ## Version
 
