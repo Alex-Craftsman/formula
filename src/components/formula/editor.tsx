@@ -19,7 +19,7 @@ import { evaluate } from "mathjs";
 export default function Editor() {
   const { addFormula } = useCalculatedFormula();
 
-  const [code, setCode] = useState<string>("3+5*2-(¦1‡name 1‡123¦8/4)^2");
+  const [code, setCode] = useState<string>("3+5*2-(¦1‡name 1‡10¦+8/4)^2");
 
   const handleChangeValue = (value: string, _position?: Position) => {
     setCode(value);
